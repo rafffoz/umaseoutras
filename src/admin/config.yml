@@ -7,7 +7,7 @@ backend:
     - name: "blog"
       label: "Blog"
       folder: "src/blog"
-      creat: true
+      create: true
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
       fields:
         - { label: "Title", name: "title", widget: "string" }
